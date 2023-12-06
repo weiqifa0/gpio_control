@@ -1,0 +1,6 @@
+	power_hold_ctl: power_hold_ctl {
+		status = "okay";
+		compatible = "gpio,px30-gpio";
+		cname = "power_hold_control";
+		en-gpio = <&gpio0 RK_PA7 GPIO_ACTIVE_HIGH>;
+	};
